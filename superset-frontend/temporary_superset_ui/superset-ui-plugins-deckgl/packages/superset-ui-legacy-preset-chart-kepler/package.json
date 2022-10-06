@@ -26,19 +26,25 @@
     "access": "public"
   },
   "dependencies": {
-    "kepler.gl": "1.1.8",
-    "lodash": "^4.17.15",
-    "mapbox-gl": "^0.53.0",
+    "kepler.gl": "2.4.0",
+    "lodash": "^4.17.21",
+    "mapbox-gl": "^1.10.0",
     "prop-types": "^15.6.0",
     "react-palm": "^3.1.2",
     "redux": "^4.0.5",
     "shortid": "^2.2.15",
     "styled-components": "^4.4.0",
-    "viewport-mercator-project": "^6.1.1"
+    "viewport-mercator-project": "^6.1.1",
+    "@snyk/protect": "latest"
   },
   "peerDependencies": {
     "@superset-ui/chart-controls": "^0.17.12",
     "@superset-ui/core": "^0.17.11",
     "react": "^15 || ^16"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
