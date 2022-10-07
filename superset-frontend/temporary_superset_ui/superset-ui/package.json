@@ -37,7 +37,9 @@
     "ci:create-minor-version": "npm run clean-npm-lock && ./scripts/lernaVersion.sh minor",
     "ci:create-conventional-version": "npm run clean-npm-lock && ./scripts/lernaVersion.sh '--conventional-commits --create-release github'",
     "ci:release-from-tag": "npm run clean-npm-lock && lerna publish from-package --yes",
-    "ci:release-conventional": "npm run clean-npm-lock && lerna publish --conventional-commits --create-release github --yes"
+    "ci:release-conventional": "npm run clean-npm-lock && lerna publish --conventional-commits --create-release github --yes",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": "https://github.com/apache-superset/superset-ui.git",
   "keywords": [
@@ -118,7 +120,7 @@
     "jest-enzyme": "^7.1.2",
     "jest-mock-console": "^1.0.0",
     "jsdom": "^16.4.0",
-    "lerna": "^3.15.0",
+    "lerna": "^5.5.2",
     "lint-staged": "^10.0.3",
     "npm": "^7.5.4",
     "prettier": "^2.4.1",
@@ -132,12 +134,13 @@
     "ts-loader": "^8.0.7",
     "typescript": "^4.1.2",
     "webpack": "^4.42.0",
-    "webpack-bundle-analyzer": "^3.6.1",
+    "webpack-bundle-analyzer": "^4.0.0",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0",
+    "webpack-dev-server": "^4.0.0",
     "webpack-manifest-plugin": "^2.2.0",
     "webpack-sources": "^1.4.3",
-    "yargs": "^15.4.1"
+    "yargs": "^15.4.1",
+    "@snyk/protect": "latest"
   },
   "engines": {
     "node": "14.x || 16.x",
@@ -163,5 +166,6 @@
     "*.{js,jsx,ts,tsx,json,md}": [
       "prettier --write"
     ]
-  }
+  },
+  "snyk": true
 }
