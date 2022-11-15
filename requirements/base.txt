@@ -7,7 +7,7 @@
 #
 -e file:.
     # via -r requirements/base.in
-aiohttp==3.7.4.post0
+aiohttp==3.8.0.post0
     # via slackclient
 alembic==1.6.5
     # via flask-migrate
@@ -295,3 +295,4 @@ zipp==3.4.1
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
