@@ -33,17 +33,17 @@
     "@babel/polyfill": "^7.4.3",
     "@data-ui/event-flow": "^0.0.80",
     "@storybook/addon-actions": "^5.0.9",
-    "@storybook/addon-knobs": "^5.0.9",
+    "@storybook/addon-knobs": "^6.2.0",
     "@storybook/addon-links": "^5.0.9",
     "@storybook/addons": "^5.0.9",
-    "@storybook/react": "^5.0.9",
+    "@storybook/react": "^6.2.0",
     "@types/react": "^16.9.49",
     "@types/storybook__react": "3.0.7",
     "bootstrap": "^4.3.1",
     "react": "^16.6.0",
     "react-bootstrap": "^0.33.1",
     "react-loadable": "^5.5.0",
-    "storybook-addon-jsx": "^7.1.0"
+    "storybook-addon-jsx": "^7.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
