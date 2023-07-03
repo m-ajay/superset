@@ -145,7 +145,7 @@ pydata-google-auth==1.2.0
     # via pandas-gbq
 pyfakefs==4.5.0
     # via -r requirements/testing.in
-pygments==2.9.0
+pygments==2.15.0
     # via ipython
 pyhive[hive,presto]==0.6.4
     # via
