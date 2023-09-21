@@ -8,7 +8,7 @@
 -r base.txt
 -e file:.
     # via -r requirements/base.in
-gevent==21.8.0
+gevent==23.9.0
     # via -r requirements/docker.in
 greenlet==1.1.1
     # via gevent
