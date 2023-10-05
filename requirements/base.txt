@@ -269,7 +269,7 @@ typing-extensions==3.10.0.0
     # via
     #   aiohttp
     #   apache-superset
-urllib3==1.26.6
+urllib3==1.26.17
     # via selenium
 vine==1.3.0
     # via
