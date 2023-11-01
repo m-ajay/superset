@@ -101,7 +101,7 @@
     "@superset-ui/legacy-plugin-chart-sunburst": "file://./plugins/legacy-plugin-chart-sunburst",
     "@superset-ui/legacy-plugin-chart-treemap": "file://./plugins/legacy-plugin-chart-treemap",
     "@superset-ui/legacy-plugin-chart-world-map": "file://./plugins/legacy-plugin-chart-world-map",
-    "@superset-ui/legacy-preset-chart-deckgl": "file://./plugins/legacy-preset-chart-deckgl",
+    "@superset-ui/legacy-preset-chart-deckgl": "1.5.0",
     "@superset-ui/legacy-preset-chart-nvd3": "file://./plugins/legacy-preset-chart-nvd3",
     "@superset-ui/plugin-chart-echarts": "file://./plugins/plugin-chart-echarts",
     "@superset-ui/plugin-chart-pivot-table": "file://./plugins/plugin-chart-pivot-table",
