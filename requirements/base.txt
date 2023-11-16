@@ -7,7 +7,7 @@
 #
 -e file:.
     # via -r requirements/base.in
-aiohttp==3.7.4.post0
+aiohttp==3.8.6
     # via slackclient
 alembic==1.6.5
     # via flask-migrate
@@ -228,7 +228,7 @@ redis==3.5.3
     # via apache-superset
 sasl==0.3.1
     # via -r requirements/base.in
-selenium==3.141.0
+selenium==4.15.1
     # via apache-superset
 simplejson==3.17.3
     # via apache-superset
