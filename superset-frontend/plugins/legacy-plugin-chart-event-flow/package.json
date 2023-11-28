@@ -29,8 +29,8 @@
   },
   "dependencies": {
     "@data-ui/event-flow": "^0.0.84",
-    "@superset-ui/chart-controls": "0.18.25",
-    "@superset-ui/core": "0.18.25",
+    "@superset-ui/chart-controls": "2.1.0",
+    "@superset-ui/core": "2.1.0",
     "prop-types": "^15.6.2"
   },
   "peerDependencies": {
