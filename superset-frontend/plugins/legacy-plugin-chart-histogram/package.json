@@ -30,8 +30,8 @@
   "dependencies": {
     "@data-ui/histogram": "^0.0.84",
     "@data-ui/theme": "^0.0.84",
-    "@superset-ui/chart-controls": "0.18.25",
-    "@superset-ui/core": "0.18.25",
+    "@superset-ui/chart-controls": "2.1.0",
+    "@superset-ui/core": "2.1.0",
     "@vx/legend": "^0.0.198",
     "@vx/responsive": "^0.0.199",
     "@vx/scale": "^0.0.197",
