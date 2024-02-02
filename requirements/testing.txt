@@ -67,7 +67,7 @@ googleapis-common-protos==1.53.0
     # via
     #   google-api-core
     #   grpcio-status
-grpcio==1.41.1
+grpcio==1.53.2
     # via
     #   google-api-core
     #   google-cloud-bigquery
@@ -78,7 +78,7 @@ iniconfig==1.1.1
     # via pytest
 ipdb==0.13.9
     # via -r requirements/testing.in
-ipython==7.26.0
+ipython==8.10.0
     # via
     #   -r requirements/testing.in
     #   ipdb
@@ -98,7 +98,7 @@ mccabe==0.6.1
     # via pylint
 mypy-extensions==0.4.3
     # via typing-inspect
-oauthlib==3.1.1
+oauthlib==3.2.2
     # via requests-oauthlib
 openapi-schema-validator==0.1.5
     # via openapi-spec-validator
@@ -122,7 +122,7 @@ proto-plus==1.19.7
     # via
     #   google-cloud-bigquery
     #   google-cloud-bigquery-storage
-protobuf==3.19.1
+protobuf==3.19.5
     # via
     #   google-api-core
     #   google-cloud-bigquery
@@ -145,7 +145,7 @@ pydata-google-auth==1.2.0
     # via pandas-gbq
 pyfakefs==4.5.0
     # via -r requirements/testing.in
-pygments==2.9.0
+pygments==2.15.0
     # via ipython
 pyhive[hive,presto]==0.6.4
     # via
@@ -184,3 +184,5 @@ wrapt==1.12.1
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
