@@ -90,7 +90,7 @@
     "@superset-ui/legacy-plugin-chart-heatmap": "file://./plugins/legacy-plugin-chart-heatmap",
     "@superset-ui/legacy-plugin-chart-histogram": "file://./plugins/legacy-plugin-chart-histogram",
     "@superset-ui/legacy-plugin-chart-horizon": "file://./plugins/legacy-plugin-chart-horizon",
-    "@superset-ui/legacy-plugin-chart-map-box": "file://./plugins/legacy-plugin-chart-map-box",
+    "@superset-ui/legacy-plugin-chart-map-box": "2.1.0",
     "@superset-ui/legacy-plugin-chart-paired-t-test": "file://./plugins/legacy-plugin-chart-paired-t-test",
     "@superset-ui/legacy-plugin-chart-parallel-coordinates": "file://./plugins/legacy-plugin-chart-parallel-coordinates",
     "@superset-ui/legacy-plugin-chart-partition": "file://./plugins/legacy-plugin-chart-partition",
